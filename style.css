@@ -1,0 +1,26 @@
+body{
+    background-image: url(car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+/* #formContainer{
+    width: 50%;
+    margin-top: 200px;
+}
+#tableContainer{
+    float: right;
+    margin-bottom: 200px;
+} */
+
+#form{
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 80px;
+    margin-bottom: -142px;
+}
+#table{
+    float: right;
+    margin-right: 80px;
+}

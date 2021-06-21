@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Sale</title>
+</head>
+<body>
+    <header>
+        My Car Sale
+
+    </header>
+    <main>
+        <div id="formContainer">
+            <form id="form">
+                <fieldset>
+                    <legend>Car Sale</legend>
+                    <label for="carName">Car Name</label>
+                    <input type="text" name="carName" id="carName">
+                    <br>
+                    <br>
+                    <label for="category">Category</label>
+                    <select name="category" id="category">
+                        <option value="Sports Car"> Sports Car</option>
+                        <option value="Family Car"> Family Car</option>
+                        <option value="Heavy Duty Car">Heavy Duty Car</option>
+                    </select>
+                    <br>
+                    <br>
+
+                    <label for="quantity">Quantity</label>
+                    <input type="number" name="quantity" id="quantity">
+                    <br>
+                    <br>
+                    <input type="submit" value="Add" id="add">
+                    <br>
+                    <br>
+                </fieldset>
+            </form>
+
+        </div>
+
+        <div id="tableContainer">
+            <table id="table">
+
+            </table>
+        </div>
+
+    </main>
+    <footer>
+        <script src="app.js"></script>
+    </footer>
+    
+</body>
+</html>
